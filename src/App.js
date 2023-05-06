@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import TransactionList from './components/TransactionList';
+import TransactionForm from './components/TransactionForm';
+
 import './App.css';
 
 function App() {
+    const [transactions, setTransactions] = useState([]);
+
+    const handleAddTransaction = (newTransaction) => {
+    setTransactions([...transactions, newTransaction]);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TransactionList transactions={transactions} />
+      <TransactionForm onAddTransaction={handleAddTransaction} />
     </div>
   );
 }
