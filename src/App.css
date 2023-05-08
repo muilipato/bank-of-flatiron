@@ -90,3 +90,9 @@ input[type="date"]{
   border: 1px solid #ccc;
   border-radius:4px
 }
+.search-text{
+  display: flex;
+}
+.transactions-list h2{
+  text-align: center;
+}

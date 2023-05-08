@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-function SearchFilter({onSearch}){
+function SearchFilter({onSearch}){ //onSearch is a prop that is a callback function to handle the search functionality
     const[search, setSearch]= useState('');
 
     function handleSearchChange(event){
@@ -11,12 +11,14 @@ function SearchFilter({onSearch}){
     }
     return(
         <div>
-            <input 
+            <label>Search Transactions
+            <input className='search-text'
             type='text'
             placeholder='search by description'
             value={search}
             onChange={handleSearchChange}
             />
+            </label>
         </div>
     )
         

@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-const TransactionTable = () => {
-  const [transactions, setTransactions] = useState([]);
+const TransactionTable = ({transactions}) => {
+ /* const [transactions, setTransactions] = useState([]);
 
   useEffect(() => {
     fetch('https://bank-data.onrender.com/transactions')
@@ -10,7 +10,7 @@ const TransactionTable = () => {
       
 
   }, []);
-  console.log(transactions);  
+  console.log(transactions); */ 
   return (
     <table className='table'>
       <thead>
