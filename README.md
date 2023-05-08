@@ -8,11 +8,11 @@ data! Use the below gif as an example of how the app should function.
 > To view in VSCode, right click on the README.md file and select "Open Preview".
 
 ## Set Up 
-I uploaded the json data to a json server using <a href="https://render.com" target ="_blank">render.com</a>
+I uploaded the json data to a json server using <a href="https://render.com/" target ="_blank">render.com</a>
 
-First click on this link to start the json server before starting the app <a href="https://bank-data.onrender.com" target ="_blank">server</a>
+First click on this link to start the json server before starting the app <a href="https://bank-data.onrender.com/" target ="_blank">server</a>
 
-To start the app click <a href ="https://muilipato.github.io/bank-of-flatiron" target="_blank">Bank-of-Flatiron</a>
+To start the app click <a href ="https://muilipato.github.io/bank-of-flatiron/" target="_blank">Bank-of-Flatiron</a>
 
 
 
